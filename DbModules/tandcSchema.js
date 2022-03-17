@@ -7,4 +7,4 @@ const pageUpdateSchema = new Schema({
 });
 
 // export default mongoose.models.tandc  || mongoose.model<any>('tandc', pageUpdateSchema);
-module.exports=mongoose.models.tandc  || mongoose.model<any>('tandc', pageUpdateSchema);
+module.exports=mongoose.models.tandc  || mongoose.model('tandc', pageUpdateSchema);
